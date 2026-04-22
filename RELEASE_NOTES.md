@@ -26,9 +26,9 @@
 - **Floating Cat**: Draggable window with cat animation
 - **Double-click Tray**: Show/hide floating cat
 
-![Screenshot](docs/screenshot.png)
+![Screenshot](docs/Screenshot%202026-04-23%20014059.png)
 
-🎥 **[Watch Demo Video](docs/demo.mp4)**
+🎥 **[Watch Demo Video](docs/catf.mp4)**
 
 ## 📝 Changelog
 
@@ -49,9 +49,9 @@
 
 Love the app? Help keep the cat running!
 
-<iframe src="https://github.com/sponsors/kuma-sannn/card" title="Sponsor kuma-sannn" height="225" width="600" style="border: 0;"></iframe>
+[![Sponsor](https://img.shields.io/badge/Sponsor-%E2%9D%A4%EF%B8%8F-pink)](https://github.com/sponsors/kuma-sannn)
 
-Or visit: [docs/SPONSORS.html](docs/SPONSORS.html)
+Or visit: [SPONSORS.html](docs/SPONSORS.html) (download and open locally)
 
 ## 🐛 Known Issues
 
