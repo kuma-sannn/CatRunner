@@ -1,0 +1,21 @@
+"AppBuild"
+{
+	"AppID" "480" // Replace with your actual Steam App ID
+	"Desc" "GPU Cat Monitor Release"
+	
+	"ContentRoot" "..\\src\\GpuCatMonitor\\bin\\Release\\net8.0-windows\\win-x64\\publish"
+	"BuildOutput" "..\\steam\\output"
+	
+	"Depots"
+	{
+		"1001" // Depot ID
+		{
+			"FileMapping"
+			{
+				"LocalPath" "*"
+				"DepotPath" "."
+				"recursive" "1"
+			}
+		}
+	}
+}
