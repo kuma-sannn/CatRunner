@@ -42,3 +42,4 @@ None reported yet!
 ## 💬 Support
 
 Open an issue on GitHub for bug reports or feature requests.
+<iframe src="https://github.com/sponsors/kuma-sannn/card" title="Sponsor kuma-sannn" height="225" width="600" style="border: 0;"></iframe>
