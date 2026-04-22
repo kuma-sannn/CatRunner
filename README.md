@@ -1,4 +1,4 @@
-# GPU Cat Monitor v1.0.0
+# GPU Cat Monitor v1.0.1
 
 ## 🐱 Features
 
@@ -26,7 +26,17 @@
 - **Floating Cat**: Draggable window with cat animation
 - **Double-click Tray**: Show/hide floating cat
 
+![Screenshot](docs/screenshot.png)
+
+🎥 **[Watch Demo Video](docs/demo.mp4)**
+
 ## 📝 Changelog
+
+### v1.0.1
+- Fixed cat animation size consistency
+- Added code constants for future extensibility
+- Added GitHub sponsors support page
+- Added documentation for Linux/macOS ports (future)
 
 ### v1.0.0
 - Initial release
@@ -35,6 +45,14 @@
 - Floating cat window
 - GPU/CPU animation mode toggle
 
+## 💖 Support the Project
+
+Love the app? Help keep the cat running!
+
+<iframe src="https://github.com/sponsors/kuma-sannn/card" title="Sponsor kuma-sannn" height="225" width="600" style="border: 0;"></iframe>
+
+Or visit: [docs/SPONSORS.html](docs/SPONSORS.html)
+
 ## 🐛 Known Issues
 
 None reported yet!
@@ -42,4 +60,3 @@ None reported yet!
 ## 💬 Support
 
 Open an issue on GitHub for bug reports or feature requests.
-
