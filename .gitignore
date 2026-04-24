@@ -1,6 +1,17 @@
-﻿bin/
+bin/
 obj/
 *.user
 *.suo
 .vs/
 *.log
+
+# Build and Release
+publish/
+releases/
+*.exe
+*.dll
+*.pdb
+*.zip
+*.msi
+*.appx
+*.mp4

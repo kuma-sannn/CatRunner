@@ -9,7 +9,8 @@ public partial class App : Application
     {
         base.OnStartup(e);
         
+        ShutdownMode = ShutdownMode.OnExplicitShutdown;
+        
         var mainWindow = new CatWindow();
-        mainWindow.Show();
     }
 }
