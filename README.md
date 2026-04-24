@@ -1,80 +1,51 @@
 # GPU Cat Monitor 🐱
 
-A desktop pet that monitors your GPU in real-time! The cat runs faster when your GPU is working hard, and slows down when it's idle.
+A lightweight desktop pet that monitors your GPU in real-time. The cat runs faster as your GPU usage increases, providing a fun and visual way to track performance!
 
 ![App Screenshot](docs/screenshots/screenshot.png)
 
-🎥 **[Watch Demo Video](docs/videos/demo.mp4)**
+## 🚀 Download & Run
 
-## Features
+To get the cat running on your desktop:
 
-- **Real-time GPU Monitoring**: Supports NVIDIA, AMD, and Intel GPUs
-- **Always Visible**: Floats on your desktop like a battery indicator
-- **Variable Speed Animation**: Cat runs at 5-30 FPS based on GPU load
-- **Hover for Stats**: See exact GPU usage, temperature, and name
-- **Draggable**: Move it anywhere on your screen
-- **System Tray**: Minimize to tray and access settings
-- **Auto-start**: Optional startup with Windows
+1. **[Download CatRunner_Release.zip](CatRunner_Release.zip)** from this repository.
+2. **Extract** the ZIP file to a folder of your choice.
+3. Run **`GpuCatMonitor.exe`**.
 
-## How It Works
+### ⚠️ Security Note (Windows SmartScreen)
+Windows may show a "Windows protected your PC" alert because the app is not digitally signed. 
+- Click **"More info"**
+- Click **"Run anyway"**
 
-1. Download and run `GpuCatMonitor.exe`
-2. The cat appears on your desktop (default: bottom-right corner)
-3. Drag it anywhere you want
-4. Watch the cat's speed change with your GPU usage:
-   - **Slow (5 FPS)**: GPU idle (< 30%)
-   - **Medium (15 FPS)**: GPU working (30-70%)
-   - **Fast (30 FPS)**: GPU at full load (> 70%)
+## ✨ Features
 
-## Steam Integration
+- **Real-time Monitoring**: Supports NVIDIA, AMD, and Intel GPUs.
+- **Adaptive Mode**: Can track the highest usage between CPU and GPU automatically.
+- **System Tray**: Minimize to tray to keep your desktop clean.
+- **Always on Top**: The cat floats above other windows (optional).
+- **Customizable**: Drag to move, right-click for settings.
 
-- Free to download
-- Steam Workshop support for custom characters
-- Cloud sync for settings
-- Achievements for monitoring milestones
+## 🛠️ Troubleshooting
 
-## Technical Details
+- **App won't start**: Install the [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0).
+- **Animation lag**: Ensure your GPU drivers are updated.
+- **Settings reset**: Settings are saved in `%LOCALAPPDATA%\GpuCatMonitor`.
 
-- Built with C# WPF
-- Uses NVAPI for NVIDIA, ADL for AMD, WMI for Intel
-- Single-file executable, no installation required
-- ~10MB download, minimal CPU/memory usage
+## 👩‍💻 For Developers
 
-## Development
+If you want to contribute or build from source:
+
+1. Clone the repository.
+2. Open the solution in the `src` folder.
+3. Use `dotnet build` or Visual Studio 2022.
 
 ```bash
-# Build
-cd src
-dotnet build
-
-# Run
-dotnet run --project GpuCatMonitor
-
-# Publish for Steam
-dotnet publish GpuCatMonitor -c Release -r win-x64 --self-contained true -p:PublishSingleFile=true
+# Run via CLI
+dotnet run --project src/GpuCatMonitor
 ```
-
-## ⚠️ Security Note (Windows SmartScreen)
-
-Since this application is not digitally signed with a commercial certificate, Windows Defender SmartScreen may display a warning saying **"Windows protected your PC"**.
-
-To run the app:
-1. Click **"More info"**.
-2. Click **"Run anyway"**.
-
-This alert appears because the executable is new and has not yet built up "reputation" with Microsoft's servers. The app is safe and only monitors system performance.
-
-## Troubleshooting
-
-- **App doesn't start**: Ensure you have the [.NET 8.0 Desktop Runtime](https://dotnet.microsoft.com/download/dotnet/8.0) installed.
-- **Cat is frozen**: Check if your GPU drivers are up to date.
-- **Settings not saving**: The app saves settings in `%LOCALAPPDATA%\GpuCatMonitor`. Ensure the app has permission to write to this folder.
 
 ## Support 💖
 
-Love the app? Help keep the cat running!
-
-- 🎁 **[Sponsor on GitHub](docs/SPONSORS.html)** - Support development
-- ⭐ **Star the repo** - Show your appreciation
-- 🐛 **Report bugs** - Help improve the app
-- 💡 **Suggest features** - Share your ideas
+- ⭐ **Star the repo** if you like the cat!
+- 🐛 **Report bugs** in the Issues tab.
+- 🎁 **[Support Development](docs/SPONSORS.html)**

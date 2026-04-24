@@ -12,6 +12,7 @@ releases/
 *.dll
 *.pdb
 *.zip
+!CatRunner_Release.zip
 *.msi
 *.appx
 *.mp4
